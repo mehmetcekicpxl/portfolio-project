@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio van Mehmet</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/3983fb8698.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <ul id="nav-links" class="hidden2">
+                <li><a href="#header">Home</a> </li>
+                <li><a href="#about">Over Mij</a> </li>
+                <li><a href="#services">Services</a> </li>
+                <li><a href="#portfolio">Werken</a> </li>
+                <li><a href="#opdrachten">Opdrachten</a> </li>
+                <li><a href="#competenties-programmeur">Ontwikkeling</a> </li>
+                <li><a href="#reflectie">Reflectie</a> </li>
+                <li><a href="#logboek">Logboek</a> </li>
+                <li><a href="#contact">Contact</a> </li>
+                <li><a href="cv.html" target="_blank">CV</a> </li>
+            </ul>
+
+        </nav>
+
+        <div class="header-text">
+            <p>.NET Developer</p>
+            <h1>Hi,I'm <span>Mehmet</span><br> CEKIC from BELGIUM <br>Welkom bij mijn portfolio! </h1>
+            <p> In dit portfolio vind je informatie over mijn projecten, vaardigheden en mijn persoonlijke ontwikkeling in de IT-wereld.
+                Ik ben gepassioneerd over programmeren en blijf altijd leren om mezelf te verbeteren. Dit portfolio is een weerspiegeling van mijn reis en groei als IT-professional.
+                Veel plezier met het verkennen van mijn werk!</p>
+
+
+        </div>
+        <div id="image">
+
+            <img src="assets/shpe-Photoroom.png" class="shape">
+            <img src="assets/profil-photo-Photoroom.png" class="photo">
+
+        </div>
+    </div>
+</div>
+
+<!--............------------------------------about-----------------------------------------------.........-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="assets/colom-1.jpeg" alt="mijn foto">
+            </div>
+                
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Hallo! Ik ben Mehmet. Ik ben vastbesloten mezelf te verbeteren in de softwarewereld.
+                    Ik ben oplossingsgericht en sta open voor continu leren.
+                    Met mijn analytisch denkvermogen ben ik in staat om effectieve en creatieve oplossingen te ontwikkelen voor complexe problemen.
+                    Mijn interesse in technische details stelt me in staat om innovatief en systematisch te werken aan projecten.
+                    Ik ben mezelf voortdurend aan het verbeteren op het gebied van softwareontwikkeling.
+                    Mijn doel is om met moderne technologieën impactvolle projecten te realiseren en professioneel waarde toe te voegen</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links " onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web app development</li>
+                        <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        <li><span>C#</span><br>.Net Projecten en App ontwikkeling</li>
+                        <li><span>for meer kijk naar mijn CV</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents " id="experience">
+                    <ul>
+                        <li><span>2024-Current</span><br>HASSELT/BELGIÊ <br><strong>Student(Programmeur)</strong> <br>  </li>
+                        <li><span>2020-2021</span><br>INEGOL/TURKIYE <br><strong>CNC-operator</strong> <br> </li>
+                        <li><span>2019-2020</span> <br>HATAY/TURKIYE <br><strong>E-commerce Manager</strong> <br> </li>
+                        <li><span>2015-2019</span> <br>ANKARA/TURKIYE <br><strong>Luitenant</strong> <br>  </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Hogeschool PLX</span> <br> Programmeren/Graduaat<br>9.2024-6.2026</li>
+                        <li><span>CVO De Verdieping</span> <br> Programmeren met Python(cursus)/Certificaat<br>11.2023-3.2024</li>
+                        <li><span>Openbaar Onderwijscentrum </span> <br> Computerondersteunde 2D-3D Tekening(Autocad 2D-3D)<br>12.102021 INEGOL/TURKIYE</li>
+                        <li><span>Openbaar Onderwijscentrum </span> <br> Computerondersteunde 3D Tekening(Solidworks 3D)<br>12.102021 INEGOL/TURKIYE</li>
+                        <li><span>Turkish Military Academy </span> <br> Business Administration/Bachelor's Degree <br>30.08.2011-30.08.2015/ANKARA/TURKIYE</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------------------------------sevices---------------------------------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">MY SERVICES</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>In webdesignprojecten ontwerp ik gebruiksgerichte, stijlvolle en moderne websites.<br>
+                    Wat uw doel ook is, ik bied oplossingen die bij uw wensen passen.</p>
+                <p>For More <strong><a href="#contact">Contact </a></strong>Me</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Met user interface (UI) en user experience (UX) design zorg ik ervoor dat uw projecten zowel esthetisch als functioneel zijn.
+                    Met gebruiksvriendelijke ontwerpen zet ik jouw merk in de digitale omgeving onder de aandacht.</p>
+                <p>For More <strong><a href="#contact">Contact </a></strong>Me</p>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Ik produceer creatieve en functionele oplossingen voor mobiele en desktopapplicaties.
+                    Ik maak uw droomideeën werkelijkheid door ze te combineren met technologie.</p>
+                <p>For More <strong><a href="#contact">Contact </a></strong>Me</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!------------------------------------------------My Works----------------------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Mijn Werken</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="assets/webAplicatie.png" alt="webphoto" id="webphoto">
+                <div class="layer">
+                    <h3>Web Aplications</h3>
+                    <p>In de toekomst kunt u hier mijn projecten vinden. Voor nu kun je mijn GitHUB-adres bezoeken</p>
+                    <a href="https://github.com/mehmetcekicpxl" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="assets/mobilApp.png" alt="mobilapp photo">
+                <div class="layer">
+                    <h3>Mobile Aplications</h3>
+                    <p>In de toekomst kunt u hier mijn projecten vinden. Voor nu kun je mijn GitHUB-adres bezoeken</p>
+                    <a href="https://github.com/mehmetcekicpxl" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/game.png" alt="game photo">
+                <div class="layer">
+                    <h3>Games</h3>
+                    <p>In de toekomst kunt u hier mijn projecten vinden. Voor nu kun je mijn GitHUB-adres bezoeken</p>
+                    <a href="https://github.com/mehmetcekicpxl" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/mehmetcekicpxl" target="_blank" class="btn">See More</a>
+    </div>
+</div>
+
+<!---------------------------------------------------opdrachten------------------------------------------------------->
+<section id="opdrachten">
+    <div class="container">
+
+        <h2 class="sub-title" >Mijn Opdrachten</h2>
+
+        <img src="assets/opdracten1.jpg" alt="photo">
+
+        <div class="opdracht-container">
+            <div class="opdracht">
+                <h3 class="opdracht-title">1. Permanente Evaluatie (PE1) - Scratch</h3>
+                <p class="beschrijven"><strong>Taakomschrijving:</strong> In deze taak hebben we een spel ontwikkeld met behulp van de programmeertaal Scratch. Ik leerde de basisconcepten voor programmeren met Scratch en begon de logica van het maken van games te begrijpen.</p>
+                <p class="uitdagingen"><strong>Persoonlijke Uitdagingen:</strong> In het begin was de visuele, op blokken gebaseerde structuur van Scratch moeilijk voor mij. Maar na verloop van tijd besefte ik dat deze methode het schrijven van code intuïtiever maakt.</p>
+                <p class="bijleren"><strong>Bijgeleerd:</strong> ik heb vooruitgang geboekt in de basisprogrammeerlogica, het opzetten van spellogica en het bieden van gebruikersinteractie in Scratch. Deze opdracht heeft mij waardevolle kennis opgeleverd over visueel programmeren.</p>
+            </div>
+
+            <div class="opdracht">
+                <h3 class="opdracht-title">2. LDB (Lockdown Browser) Test - GIT</h3>
+                <p class="beschrijven"><strong>Taakomschrijving:</strong> Bij deze taak hebben we de Lockdown Browser-applicatie getest en zijn we begonnen met het beheren van projecten met behulp van GIT. Ik moest leren hoe ik versiebeheer kon uitvoeren met GIT.</p>
+                <p class="uitdagingen"><strong>Persoonlijke Uitdagingen:</strong>In het begin was het gebruik van GIT-commando's een uitdaging. In dit opzicht verbeterde ik echter snel door meer te oefenen en de hulpmiddelen te onderzoeken.</p>
+                <p class="bijleren"><strong>Bijgeleerd:</strong> Ik heb aanzienlijke ervaring opgedaan met GIT-commando's, versiebeheer, het maken van vertakkingen en commit-operaties.</p>
+            </div>
+
+            <!-- ----------------------------------------HIDDEN---------------------------------------------------------->
+            <div class="opdracht hidden1">
+                <h3 class="opdracht-title">3. PE2 (GIT Taak 1)</h3>
+                <p class="beschrijven"><strong>Taakomschrijving:</strong> In deze rol leerde ik de basisfuncties van GIT gedetailleerder kennen en werkte ik aan het management van projecten. Dit gaf mij de nodige vaardigheden om bij te dragen aan een project met behulp van GIT.</p>
+                <p class="uitdagingen"><strong>Persoonlijke Uitdagingen:</strong> Het leren van alle functies van GIT was tijdrovend. Maar na een paar pogingen begon ik de commando's comfortabeler te gebruiken.</p>
+                <p class="bijleren"><strong>Bijgeleerd:</strong>Ik heb vaardigheden verworven zoals het effectief gebruiken van versiebeheer van GIT, het delen van bestanden en het beheren van updates terwijl ik aan projecten samenwerkte.</p>
+            </div>
+            <div class="opdracht hidden1">
+                <h3 class="opdracht-title">4. PE3 Reflecteren over Strach Project</h3>
+                <p class="beschrijven"><strong>Taakomschrijving:</strong> In dit project evalueerde ik mijn eerdere projecten. Terugkijkend op het spel dat ik met Scratch ontwikkelde, analyseerde ik in welke aspecten ik succesvol was en wat ik beter kon doen. De basisprogrammeerlogica en het spelmaakproces dat ik in Scratch leerde, speelden een belangrijke rol bij het bepalen hoe ik verder zou gaan in mijn volgende projecten.</p>
+                <p class="uitdagingen"><strong>Persoonlijke Uitdagingen:</strong> De grootste uitdaging in deze reflectie was het objectief evalueren van het project dat ik met Scratch heb gemaakt. De technieken en logica voor het maken van spellen die ik destijds leerde, waren heel nieuw voor mij. Na verloop van tijd kon ik echter mijn fouten in het proces onderkennen en leerde ik hoe ik feedback kon gebruiken om effectievere oplossingen te ontwikkelen. Toen ik echter naar mijn projecten uit het verleden keek, besefte ik dat er een paar fouten waren die ik nog moest aanpakken.</p>
+                <p class="bijleren"><strong>Bijgeleerd:</strong> Dit reflectieproces bood mij de mogelijkheid om mijn kritische denkvaardigheden te verbeteren. Ik bepaalde welke vakken ik meer moest oefenen. Het Scratch-project heeft me veel geholpen, vooral op het gebied van gebruikersinteractie en elementaire programmeerlogica. Terwijl ik naar dit project keek, dacht ik erover na hoe ik visueel programmeren en gebruikersinteractie efficiënter kon maken. Deze manier van denken gaf mij de mogelijkheid om niet alleen code te schrijven, maar ook om projecten beter te analyseren.</p>
+            </div>
+
+            <div class="opdracht hidden1">
+                <h3 class="opdracht-title">5. PE4 Plannen</h3>
+                <p class="beschrijven"><strong>Taakomschrijving:</strong>In deze rol leerde ik hoe ik mijn projecten efficiënter kon plannen. Ik werkte aan timemanagement, prioritering en taakverdeling. </p>
+                <p class="uitdagingen"><strong>Persoonlijke Uitdagingen:</strong> Het was moeilijk om te bepalen welke taken prioriteit moesten krijgen tijdens het planningsproces. Na verloop van tijd verbeterde ik dit echter door beter te leren plannen.</p>
+                <p class="bijleren"><strong>Bijgeleerd:</strong>ik heb vaardigheden verworven op het gebied van efficiënt tijdmanagement en taakprioriteit. Ook heb ik meer kennis gekregen over hoe je langetermijndoelen kunt bereiken. </p>
+            </div>
+
+            <div class="opdracht hidden1">
+                <h3 class="opdracht-title">6 PE5 Git Taak 2</h3>
+                <p class="beschrijven"><strong>Taakomschrijving:</strong>Bij deze taak hebben we een kleine website ontwikkeld in overeenstemming met de vereisten en het project geüpload naar GitHub. Bij het maken van de website hebben wij gebruik gemaakt van HTML en CSS. Vervolgens hebben we versiebeheer geïmplementeerd door het project met behulp van GIT naar GitHub te uploaden. </p>
+                <p class="uitdagingen"><strong>Persoonlijke Uitdagingen:</strong>Ik ondervond enkele problemen bij het ontwikkelen van de website en bij het gebruik van GIT. Sommige handelingen leken ingewikkeld, vooral bij het uploaden van het project naar GitHub en het maken van branches. Door echter GIT-opdrachten en workflows en met vallen en opstaan te onderzoeken, heb ik deze processen met succes voltooid. </p>
+                <p class="bijleren"><strong>Bijgeleerd:</strong>Door deze opdracht heb ik geleerd HTML, CSS en JavaScript effectief te gebruiken bij het maken van een kleine website. Ook heb ik ervaring opgedaan met de basisfuncties van GIT en meer complexe features (branches, commits, pull-requests). Door het project naar GitHub te uploaden, leerde ik hoe ik betrokken kon raken bij versiebeheer- en samenwerkingsprocessen. </p>
+            </div>
+
+            <div class="opdracht hidden1">
+                <h3 class="opdracht-title">7 PE6 Carrièrekompas</h3>
+                <p class="beschrijven"><strong>Taakomschrijving:</strong>In deze rol werkte ik aan loopbaanplanning en talentevaluatie. Ik identificeerde mijn eigen sterke en zwakke punten en plande hoe ik mezelf kon verbeteren. </p>
+                <p class="uitdagingen"><strong>Persoonlijke Uitdagingen:</strong>Mezelf objectief evalueren was in het begin een uitdaging. Met de feedback begon ik dit proces echter gezonder te beheren. </p>
+                <p class="bijleren"><strong>Bijgeleerd:</strong>Ik heb inzicht gekregen in persoonlijke doelen en ontwikkelingsgebieden om mijn eigen loopbaantraject beter te kunnen plannen. </p>
+            </div>
+
+            <div class="opdracht hidden1">
+                <h3 class="opdracht-title">8 C# project Wordle Sprint-1</h3>
+                <p class="beschrijven"><strong>Taakomschrijving:</strong>We ontwikkelden de eerste versie van het Wordle-spel met C#. In deze versie probeerden we een verborgen woord van 5 letters te vinden en kregen we 6 pogingen. </p>
+                <p class="uitdagingen"><strong>Persoonlijke Uitdagingen:</strong>Het was moeilijk om de feedbackmechanismen van het spel goed in te stellen. Ik was echter succesvol door gedetailleerd onderzoek te doen om de logica en het algoritme te begrijpen. </p>
+                <p class="bijleren"><strong>Bijgeleerd:</strong>Ik heb de basisconcepten in de C#-taal versterkt en de programmeerlogica beter begrepen. Ik heb ook geleerd de gebruikerservaring te verbeteren met kleurrijke feedback.</p>
+            </div>
+
+            <div class="opdracht hidden1">
+                <h3 class="opdracht-title">9 C# project Wordle Sprint-2</h3>
+                <p class="beschrijven"><strong>Taakomschrijving:</strong>In deze missie hebben we nieuwe functies aan het Wordle-spel toegevoegd. We hebben een menu toegevoegd dat informatie toont zoals geheime woorden, duur en pogingen. </p>
+                <p class="uitdagingen"><strong>Persoonlijke Uitdagingen:</strong>Het integreren van nieuwe functies in de bestaande structuur was een uitdaging. Ik kon het menu echter met succes toevoegen door een logische structurele lay-out op te zetten. </p>
+                <p class="bijleren"><strong>Bijgeleerd:</strong>Ik heb kennis opgedaan over het gebruik van GUI (grafische gebruikersinterface) in C# door aan menu's en gebruikersinterfaces te werken. </p>
+            </div>
+
+            <div class="opdracht hidden1">
+                <h3 class="opdracht-title">10 C# project Wordle Sprint-3</h3>
+                <p class="beschrijven"><strong>Taakomschrijving:</strong>In deze versie hebben we functies zoals "Koop groene/gele letters" en "Koop edelstenen" aan het spel toegevoegd. Deze functies gaven spelers de kans om een aantal voordelen met geld te kopen. </p>
+                <p class="uitdagingen"><strong>Persoonlijke Uitdagingen:</strong>Het correct opzetten van de in-game valuta- en briefaankoopsystemen was ingewikkeld. Ik heb het echter met succes geïntegreerd door een logische aanpak te volgen. </p>
+                <p class="bijleren"><strong>Bijgeleerd:</strong>Ik heb ervaring opgedaan met het ontwikkelen van in-game economie- en microtransactiefuncties. Ik heb ook geleerd om meer gebruikersgerichte interactieve functies toe te voegen. </p>
+            </div>
+
+            <div class="opdracht hidden1">
+                <h3 class="opdracht-title">11 PE11 Web Project(CV)</h3>
+                <p class="beschrijven"><strong>Taakomschrijving:</strong>We ontwikkelden de CV-webpagina. Ik heb een professioneel CV-ontwerp gemaakt met behulp van HTML en CSS. </p>
+                <p class="uitdagingen"><strong>Persoonlijke Uitdagingen:</strong>Omgaan met de ins en outs van webontwerp, vooral het aanpassen aan CSS, was soms een uitdaging. Door te oefenen kwam ik echter op een oplossing. </p>
+                <p class="bijleren"><strong>Bijgeleerd:</strong>Ik heb ervaring opgedaan met webontwerp en stijlbewerking met behulp van HTML en CSS. Ik heb de nodige vaardigheden verworven om een ​​professioneel CV te ontwerpen. </p>
+            </div>
+
+            <div class="opdracht hidden1">
+                <h3 class="opdracht-title">12 PE12 Portfolio</h3>
+                <p class="beschrijven"><strong>Taakomschrijving:</strong>We hebben aan het portfolioproject gewerkt. Ik introduceerde mijn eigen projecten en vaardigheden. </p>
+                <p class="uitdagingen"><strong>Persoonlijke Uitdagingen:</strong>Het was tijdrovend om elk onderdeel van het portfolio goed te organiseren. Dankzij een gedetailleerde planning en goed nadenken was ik echter succesvol. </p>
+                <p class="bijleren"><strong>Bijgeleerd:</strong>Ik heb ervaring opgedaan met het promoten van mijn eigen projecten, het redigeren van inhoud en het creëren van een professioneel portfolio. </p>
+            </div>
+        </div>
+
+        <!-- See More button-->
+        <button id="see-more-btn">See More</button>
+        <button id="see-less-btn" style="display: none;">See Less</button>
+    </div>
+</section>
+
+<!--------------------------------------------------COMPONENTIES-------------------------------------------------------->
+
+<section id="competenties-programmeur">
+    <div class="container">
+        <h2 class="sub-title">Ontwikkeling</h2>
+        <div class="rol">
+            <h3 class="rol-title">Waarom kies ik voor de opleiding programmeren?</h3><br>
+            <p>
+                Ik heb voor de opleiding programmeren gekozen omdat het een dynamisch en innovatief vakgebied is dat voortdurend in ontwikkeling is. Het feit dat je jezelf dagelijks moet blijven bijscholen en nieuwe technologieën moet leren, maakt deze opleiding erg boeiend en uitdagend. De mogelijkheid om eigen ideeën tot leven te brengen via code vind ik ook erg inspirerend. Daarnaast biedt programmeren de mogelijkheid om creatief te zijn door oplossingen te bedenken voor complexe problemen. Wat me ook aanspreekt, is de flexibiliteit die dit beroep biedt. Dankzij de mogelijkheid om op afstand te werken, kun je je werk eenvoudig combineren met andere aspecten van je leven. Bovendien kun je met een carrière in programmeren samenwerken met mensen uit verschillende culturen en landen, wat niet alleen professioneel maar ook persoonlijk verrijkend is. Het feit dat programmeurs een sleutelrol spelen in het vormgeven van de toekomst, maakt het beroep nog aantrekkelijker. Tot slot zie ik programmeren als een beroep met een toekomst. De vraag naar programmeurs neemt wereldwijd toe, en het geeft me de kans om mijn vaardigheden in te zetten en tegelijkertijd bij te dragen aan inspirerende projecten die impact hebben op de wereld.
+            </p> <br><br>
+            <h3 class="rol-title">Waarom denk ik dat dit beroep bij mij past??</h3><br>
+            <p>
+                Ik denk dat programmeren goed bij mij past vanwege mijn analytische denkvermogen en mijn gedrevenheid om problemen op te lossen. Ik ben iemand die altijd nieuwsgierig is naar hoe dingen werken en graag oplossingen bedenkt voor complexe vraagstukken. Daarnaast werk ik graag gestructureerd en nauwkeurig, wat essentieel is bij het schrijven van code. Het proces van ontwerpen, testen en verbeteren van software sluit perfect aan bij mijn manier van werken. Ik geniet ervan om door te zetten wanneer ik tegen technische uitdagingen aanloop, en vind voldoening in het oplossen van moeilijke problemen. Ik heb ook gemerkt dat ik goed functioneer in teamverband en opensta voor feedback, wat belangrijk is in de IT-wereld. Samenwerken met anderen om een project tot een goed einde te brengen, geeft me veel voldoening. Het feit dat ik me zowel zelfstandig als in groepsverband kan aanpassen, versterkt mijn geschiktheid voor dit beroep. Tot slot motiveert de constante vernieuwing in de IT-sector me om mezelf continu te blijven ontwikkelen. Ik houd van een uitdaging en ik weet dat dit beroep me de kans biedt om te groeien en mee te gaan met technologische vooruitgang.
+            </p>
+
+        </div>
+
+        <h2>Competenties Programmeur</h2>
+        <div class="rol">
+            <h3 class="rol-title">Ontwerper</h3>
+            <div class="situering">
+                <p><strong>Waar sta ik momenteel?</strong><br> <span>Momenteel heb ik meer ervaring opgedaan in ontwerpprocessen. Ik leerde web- en gameontwerp en boekte vooruitgang bij het tot leven brengen van mijn ontwerpen.</span></p>
+                <p><strong>Waar ben ik al goed in?</strong> <br><span>	Ik voel me op mijn gemak bij het ontwerpen van professionele CV- en portfolioprojecten met behulp van HTML, CSS en basisontwerpprincipes. Daarnaast heb ik mij verbeterd in het creëren van gebruiksvriendelijke interfaces en esthetische beelden.</span></p>
+                <p><strong>Wat kan ik nog niet?</strong> <br><span>Ik heb meer ervaring nodig met complexere grafische ontwerpen. Ik moet ook werken aan het opdoen van diepgaande kennis in UX/UI-ontwerp.</span></p>
+            </div>
+            <div class="activiteiten">
+                <h4>Concrete Voorbeelden</h4>
+                <ul>
+                    <li>Activiteit 1: <span>Ik ontwierp de gebruikersinterface in het Wordle-spel, waarbij elke gok uit 5 letters bestaat en de speler aanwijzingen geeft met gekleurde feedback (groen, geel, grijs). Ik heb de kleuren van de letters in elke regel dynamisch laten veranderen.
+                            Een ontwerper is iemand die de esthetiek en functionaliteit van het project evalueert; Dat is precies wat ik deed in dit project. Ik combineerde visualiteit en functionaliteit, rekening houdend met de behoeften van de gebruiker.</span></li>
+                    <li>Activiteit 2: <span>In het CV-webontwerpproject heb ik een gebruiksvriendelijke sjabloon en lay-out gemaakt. Ik bouwde de basisstructuur van de webpagina met HTML en zorgde voor elegantie en orde met CSS. Ik heb gelet op lettertype- en kleurkeuzes om de leesbaarheid van de pagina te vergroten.
+                            Ontwerpers begrijpen de behoeften van gebruikers en bieden passende oplossingen. Ik heb werk gedaan dat paste bij de rol van ontwerper door esthetiek en orde te combineren in het ontwerpen van CV's.</span>
+                    <li>Activiteit 3: <span> In het portfolio webdesignproject ontwierp ik een stijlvolle en moderne pagina om mijn projecten te presenteren. Door de verschillende rubrieken (over mij, projecten, contact) duidelijk van elkaar te scheiden, zorgde ik ervoor dat de gebruiker snel informatie kon vinden.
+                            Als ontwerper wilde ik de gebruikerservaring in dit project maximaliseren. Een ontwerper balanceert zowel visualiteit als functionaliteit; Dat is precies wat ik met dit project heb bereikt.</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="rol">
+            <h3 class="rol-title">Programmeur</h3>
+            <div class="situering">
+                <p><strong>Waar sta je momenteel?</strong><br> <span>Ik maakte vorderingen in het programmeren en ontwikkelde in verschillende projecten applicaties in talen als C#, Scratch, HTML en CSS. Ik heb vooral ervaring opgedaan in algoritmen, logica-ontwikkeling en debugging.</span></p>
+                <p><strong>Waar ben ik al goed in ?</strong> <br><span>Ik kan basisapplicaties ontwikkelen in C# en ben goed in basisfuncties van programmeren, zoals het bouwen van spellogica. Daarnaast kan ik versiebeheer uitvoeren met tools als GIT en ben ik bedreven in het debuggen.</span></p>
+                <p><strong>Wat kan ik nog niet?</strong> <br><span>Ik moet meer leren over objectgeoriënteerd programmeren en complexere software-engineeringconcepten. Daarnaast moet ik ervaring opdoen met toepassingen waarbij teamwerk vereist is bij grootschalige projecten.</span></p>
+            </div>
+            <div class="activiteiten">
+                <h4>Concrete Voorbeelden</h4>
+                <ul>
+                    <li>Activiteit 1: <span>In het Wordle-spel heb ik het algoritme ontwikkeld waarmee de voorspellingen met woorden van 5 letters nauwkeurig kunnen worden gecontroleerd. Ik heb een functie geschreven die controleert of de door de gebruiker ingevoerde letters op de juiste plaats staan.
+                                    Als programmeur is het schrijven van algoritmen en het verwerken van gebruikersinvoer een van mijn belangrijkste verantwoordelijkheden. Dit algoritme is een goed voorbeeld van mijn rol als programmeur, omdat het zowel qua nauwkeurigheid als qua gebruikerservaring een sterke oplossing biedt.</span></li>
+                    <li>Activiteit 2: <span>In het Scratch-spel schreef ik opdrachten voor karakterbewegingen en gebruikersinteractie. Ik heb ervoor gezorgd dat het personage correct reageert wanneer de gebruiker op een bepaald punt klikt.
+                                    Programmeurs creëren systemen die in harmonie werken met gebruikersinvoer en nauwkeurige resultaten opleveren. De commando's die ik in dit project heb geschreven, bieden zowel gebruikersinteractie als een belangrijk voorbeeld van het ondersteunen van de rol van programmeur, terwijl ik spelmechanismen ontwikkel.</span></li>
+
+                    <li>Activiteit 3: <span>In het CV-webontwerpproject heb ik basis JavaScript-functies gebruikt om de inhoud van de pagina dynamisch te maken (bijvoorbeeld interactieve formuliervalidatie). Ik zorgde ervoor dat de webpagina functioneel was.
+                                    Programmeurs creëren niet alleen statische ontwerpen, maar ook interactieve en dynamische systemen. In dit project heb ik de pagina nuttiger en functioneler gemaakt door JavaScript te gebruiken, waardoor ik een werk heb geproduceerd dat geschikt is voor de rol van programmeur.</span></li>
+                    </ul>
+            </div>
+        </div>
+
+        <div class="rol">
+            <h3 class="rol-title">Tester</h3>
+            <div class="situering">
+                <p><strong>Waar sta je momenteel?</strong><br> <span>Ik leerde de basisprincipes van het testproces en oefende met het rapporteren van bugs en het voorbereiden van testscenario's. Ik zorgde ervoor dat de applicatie goed werkte, vooral door tests uit te voeren op het Wordle-spel.</span></p>
+                <p><strong>Waar ben ik al goed in ?</strong> <br><span>Ik voel me comfortabel bij het testen van applicaties en code, het opsporen van fouten en het oplossen ervan. Ook kan ik teststrategieën voor software ontwikkelen en testtools gebruiken.</span></p>
+                <p><strong>Wat kan ik nog niet?</strong> <br><span>Ik begrijp de geavanceerdere testmethoden, zoals automatiseringstests en prestatietests, nog niet volledig. Ik moet ook meer ervaring opdoen met het maken van uitgebreide testplannen en het schrijven van testcases.</span></p>
+            </div>
+            <div class="activiteiten">
+                <h4>Concrete Voorbeelden</h4>
+                <ul>
+                    <li>Activiteit 1: <span>In het Wordle-spel heb ik verschillende testscenario's gemaakt om ervoor te zorgen dat elke voorspelling de juiste resultaten oplevert. Ik heb functies getest zoals invoervalidatie, correcte weergave van feedbackkleuren, etc.
+                                    Het is de taak van een tester om ervoor te zorgen dat het systeem foutloos werkt. De tests die ik voor dit project heb uitgevoerd, passen perfect bij mijn rol als tester, omdat ze de gebruikerservaring van de game naadloos maken.</span></li>
+                    <li>Activiteit 2: <span>In het Scratch-spel heb ik de gebruikersinteractie getest. Ik controleerde of het spel werkte zoals verwacht door verschillende klik- en sleepgebeurtenissen te simuleren.
+                                    Testers zorgen ervoor dat software correct met gebruikers communiceert. In dit project heb ik ervoor gezorgd dat de game soepel verliep door verschillende gebruikersscenario's te testen, wat een sterk argument vormt voor mijn rol als tester.</span></li>
+                    <li>Activiteit 3: <span>In het CV-webontwerpproject heb ik getest of het responsieve ontwerp goed werkt. Ik heb het uiterlijk van de pagina op verschillende apparaten gecontroleerd en eventuele fouten gecorrigeerd.
+                                    Testers zijn ervoor verantwoordelijk dat software op verschillende platforms en apparaten met dezelfde kwaliteit werkt. Ik heb een passende bijdrage geleverd aan de rol van tester door het project professioneler te maken door het responsive ontwerp te testen. </span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rol">
+            <h3 class="rol-title">Communicator/Teamspeler</h3>
+            <div class="situering">
+                <p><strong>Waar sta je momenteel?</strong><br> <span>Ik heb nog niet veel ervaring opgedaan met teamwerk, ik heb vooral individuele projecten gedaan. Ik ben er echter zeker van dat we gedurende mijn gehele onderwijsleven met voldoende teamwerk projecten zullen kunnen uitvoeren.</span></p>
+                <p><strong>Waar ben ik al goed in ?</strong> <br><span>Gezien mijn ervaringen uit het verleden kan ik zeggen dat ik op een goed niveau ben wat betreft effectief communiceren met teamleden, ideeën uitwisselen en samenwerken. Daarnaast heb ik het vermogen om conflicten binnen het team te beheersen en samen te werken om gemeenschappelijke doelen te bereiken.</span></p>
+                <p><strong>Wat kan ik nog niet?</strong> <br><span>Ik moet meer oefenen in het leiden van een team op projecten en het verbeteren van mijn leiderschapsvaardigheden binnen het team. Ook heb ik meer ervaring nodig om effectiever te kunnen communiceren met mensen uit verschillende disciplines.</span></p>
+            </div>
+            <div class="activiteiten">
+                <h4>Concrete Voorbeelden</h4>
+                <ul>
+                    <li>Activiteit 1: <span>GEEN ERVARING</span></li>
+                    <li>Activiteit 2: <span>GEEN ERVARING</span></li>
+                    <li>Activiteit 3: <span>GEEN ERVARING</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rol">
+            <h3 class="rol-title">Levenslang Lerende IT-Professional</h3>
+            <div class="situering">
+                <p><strong>Waar sta je momenteel?</strong><br> <span>Ik ben erg enthousiast over technologieën en blijf me verdiepen in het softwareontwikkelingsproces. Daarnaast neem ik deel aan verschillende projecten en volg ik nieuwe technologieën om mezelf voortdurend te verbeteren.</span></p>
+                <p><strong>Waar ben ik al goed in ?</strong> <br><span>Dankzij mijn continue leeraanpak kan ik onderzoek doen naar nieuwe technologieën en het geleerde in projecten in de praktijk brengen. Zo kan ik de ontwikkeling van technologieën volgen.</span></p>
+                <p><strong>Wat kan ik nog niet?</strong> <br><span>Ik heb niet genoeg ervaring met sommige nieuwe technologieën en hulpmiddelen, ik moet meer leren, vooral op gebieden als cloud computing en kunstmatige intelligentie. Bovendien moet ik de tijd beter beheren en middelen beter gebruiken om mijn leerproces efficiënter te maken.</span></p>
+            </div>
+            <div class="activiteiten">
+                <h4>Concrete Voorbeelden</h4>
+                <ul>
+                    <li>Activiteit 1: <span>Tijdens het ontwikkelen van het Woordspel heb ik nieuwe kennis opgedaan over algoritme-optimalisatie en gebruikersinteractie. Door het geleerde toe te passen op mijn projecten, schreef ik efficiëntere code.
+                                    Een IT-professional die een leven lang leert, moet zichzelf voortdurend verbeteren en nieuwe kennis in zijn projecten integreren. Ik liet zien dat ik deze aanpak hanteerde door de optimalisatietechnieken toe te passen die ik tijdens het Wordle-project had geleerd.</span></li>
+                    <li>Activiteit 2: <span>Tijdens het maken van het Scratch-spel leerde ik op blokken gebaseerd programmeren, wat ik nog nooit eerder had gebruikt. Deze ervaring heeft mijn manier van denken over software ontwikkeld.
+                                    Het leren en toepassen van een nieuwe programmeermethode is een van de belangrijkste kenmerken van een professional die een leven lang leert. Het Scratch-project heeft in dit opzicht een belangrijke bijdrage geleverd aan mijn ontwikkeling en was een sterk voorbeeld voor deze rol.</span></li>
+                    <li>Activiteit 3: <span>In het CV-webdesignproject heb ik de huidige webdesigntrends gevolgd. Ik heb de pagina bijgewerkt met een modern ontwerp met behulp van de CSS-functies die ik eerder heb geleerd.
+                                    Het bijhouden van de huidige technologieën en trends is een cruciale vaardigheid voor IT-professionals. Bij dit project hield ik mij aan het principe om mezelf voortdurend te verbeteren door designtrends toe te passen. </span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------------------------------------------------reflectie---------------------------------------------------------->
+<section id="reflectie">
+    <div class="container">
+
+        <h2 class="sub-title" >Reflectie</h2>
+
+        <img src="assets/feedback.jpg" alt="photo">
+
+        <div class="opdracht-container2">
+            <div class="rol">
+                <h3 class="rol-title">Reflectie over mijn Wordle-project</h3>
+                <p class="beschrijven"> Tijdens mijn Wordle-project heb ik gewerkt aan het maken van een spel waarbij de speler een geheim 5-letterwoord moet raden binnen 6 pogingen. Het project was een uitstekende kans om mijn programmeervaardigheden in C# toe te passen en meer te leren over gebruikersinteractie, interfaceontwerpen en logica. Het was erg leuk om de dynamische feedback te creëren, zoals de kleurverandering van de letters op basis van de juiste of verkeerde posities (groen, geel en grijs). Het toevoegen van de mogelijkheid om nieuwe functies, zoals het kopen van 'gems', in het spel te integreren was een interessante uitdaging die ik met veel plezier heb aangepakt.
+                    Positief element van dit project was de terugkoppeling aan de speler. Ik vond het geweldig om te zien hoe de gebruiker visuele aanwijzingen kreeg na elke poging, en dit gaf de ervaring een leuke dynamiek. Het was ook leuk om te experimenteren met verschillende functionaliteiten, zoals de "Buy Gems" knop, die de speler extra voordelen gaf, zoals het kopen van hints.
+                    Er waren echter ook enkele minder positieve elementen. <br><br> Een van de uitdagingen was het implementeren van de verschillende spelmenu's, vooral de timing van het verschijnen van het "statistics" menu met de F2-toets. Het was moeilijker dan verwacht om ervoor te zorgen dat het menu altijd correct zichtbaar was en geen interferentie had met andere onderdelen van de interface. Soms functioneerde het niet goed bij de eerste poging en moest ik extra foutopsporingen uitvoeren.
+                    Wat ik frustrerend vond, was de complexiteit van de verschillende logica- en animatiecomponenten die correct moesten samenwerken. Het proces van het debuggen van de logica van de letters (groen, geel, grijs) duurde langer dan ik aanvankelijk had verwacht, en ik moest geduld hebben bij het zoeken naar de juiste oplossing.
+                    Wat ik heb geleerd van dit project, is het belang van het regelmatig testen en aanpassen van de logica en interface van een spel. Het is cruciaal om te begrijpen dat niet alles perfect hoeft te zijn bij de eerste poging en dat fouten maken een normaal onderdeel van het proces is. <br><br>Ik heb ook geleerd hoe belangrijk het is om gebruiksvriendelijke feedback te geven, zodat de speler weet hoe goed ze het doen en hoe ze kunnen verbeteren.
+                    Mijn grootste persoonlijke prestatie was het feit dat het hele spel uiteindelijk goed werkte en de gebruiker een leuke en boeiende ervaring had. Het spel dat begon als een concept werd uiteindelijk volledig functioneel en werkbaar. Het proces van het aanpassen en verbeteren heeft me echt geholpen om mijn geduld en probleemoplossende vaardigheden verder te ontwikkelen.
+                    Tot slot was ik onder de indruk van hoe krachtig en veelzijdig C# is voor het ontwikkelen van een spel als Wordle. Het was interessant om te ontdekken hoe klein, eenvoudige functies, zoals het kleur veranderen van letters, grote impact kunnen hebben op de gebruikerservaring.
+                </p>
+            </div>
+
+            <div class="rol">
+                <h3 class="rol-title">Reflectie over POP-sessie: Reflecteren en Zelfsturing</h3>
+                <h4>Wat heb ik bijgeleerd tijdens deze POP-sessie? </h4>
+                <p class="beschrijven">
+                    Tijdens de POP-sessie over reflecteren en zelfsturing heb ik geleerd hoe belangrijk het is om mezelf voortdurend te evalueren en bij te sturen. Ik heb geleerd dat reflectie niet alleen gaat over het kijken naar wat goed ging, maar ook over het begrijpen waarom iets niet werkte. Dit proces helpt me om doelen beter te stellen en me bewust te worden van mijn sterke en zwakke punten. Ik heb geleerd hoe ik deze reflectie kan gebruiken om mijn leerproces te verbeteren en sneller vooruitgang te boeken.<br>
+                    </p>
+                <h4>Hoe kan ik de leerstof uit deze sessie implementeren in mijn dagelijkse leven als programmeur?</h4>
+                <p>
+                    Als programmeur kan ik de technieken van zelfreflectie toepassen om dagelijks mijn codeerpraktijken te verbeteren. Het helpt me om na te denken over welke onderdelen van mijn projecten goed gaan en waar ik kan verbeteren. Door deze reflectie kan ik mijn aanpak aanpassen en prioriteit geven aan de gebieden die ik verder wil ontwikkelen, zoals het optimaliseren van code of het verbeteren van mijn debugvaardigheden. Het helpt me ook om meer bewust te zijn van mijn tijdbeheer en hoe ik mijn werk efficiënter kan organiseren.
+                </p>
+            </div>
+
+            <div class="rol">
+                <h3 class="rol-title">Reflectie over de X-factor</h3>
+                <h4> Hoe ziet mijn X-factor er op dit moment al uit?</h4>
+                <p class="beschrijven">
+                    Mijn X-factor draait om mijn passie voor technologie en mijn vermogen om samen te werken. Ik ben ondernemend, denk creatief en zoek naar innovatieve oplossingen. Daarnaast werk ik graag in diverse teams en streef ik naar duurzaamheid in alles wat ik doe.
+                </p>
+                <h4> Hoe kan ik mijn X-factor vertalen naar de door mij gekozen cursus?</h4>
+                <p class="beschrijven">
+                    Mijn passie helpt me gemotiveerd te blijven bij mijn projecten. Ik gebruik mijn creativiteit en technische kennis om innovatieve en duurzame oplossingen te maken. Samenwerken met medestudenten, vooral in internationale groepen, verrijkt mijn leerervaring en bereidt me voor op de praktijk.
+                      </p>
+                <h4> Hoe zou ik mijn X-factor verder kunnen ontwikkelen?</h4>
+                <p class="beschrijven">
+                    Ik wil mijn X-factor versterken door mee te doen aan duurzame projecten en samenwerkingen, zowel binnen als buiten de opleiding. Door nieuwe technologieën te leren en actief deel te nemen aan internationale projecten kan ik verder groeien als een veelzijdige professional.     </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="logboek">
+
+    <div class="container">
+        <h2 class="sub-title" >Logboek</h2>
+
+        <a href="logboek.html" target="_blank">
+            <img src="assets/logboek.jpg" alt="Resim 1" class="log">
+            <div class="overlay">Klik om Logboek te bekijken</div>
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!--------------------------------------------------contact-------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mehmet.cekic@student.pxl.be</p>
+                <p><i class="fa-solid fa-square-phone"></i>0484633522</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mehmet-%C3%A7eki%C3%A7-382367296/" target="_blank" ><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/share/15T3f1Svbu/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mehmetcekic007?igsh=MWhnMG9nNGZjbDdtYw%3D%3D&utm_source=qr" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="cv.html" target="_blank"  class="btn btn2">CV BEKIJKEN </a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Mehmet CEKIC</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+
+
+
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwoll3ydLuVD9Ok3IH6sGwOjU0Pi78110i-onb8-RmEvP8dNg-IHdjTQd2nld6Nsejw5w/exec';
+    const form = document.forms['submit-to-google-sheet'];
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                console.log('Success!', response);
+                alert("Uw bericht is succesvol verzonden!");
+                form.reset();
+            })
+            .catch(error => {
+                console.error('Error!', error.message);
+                alert("Er is een fout opgetreden. Probeer het opnieuw!");
+            });
+    });
+
+</script>
+<script>
+
+    const hiddenProjects = document.querySelectorAll('.hidden1');
+    const seeMoreBtn = document.getElementById('see-more-btn');
+    const seeLessBtn = document.getElementById('see-less-btn');
+
+    seeMoreBtn.addEventListener('click', () => {
+        hiddenProjects.forEach(project => {
+            project.style.display = 'block';
+        });
+        seeMoreBtn.style.display = 'none';
+        seeLessBtn.style.display = 'inline-block';
+    });
+    seeLessBtn.addEventListener('click', () => {
+        hiddenProjects.forEach(project => {
+            project.style.display = 'none';
+        });
+        seeMoreBtn.style.display = 'inline-block';
+        seeLessBtn.style.display = 'none';
+        seeMoreBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+
+
+</script>
+<script>
+    const elements = document.querySelectorAll('.rol');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate');
+            } else {
+                entry.target.classList.remove('animate');
+            }
+        });
+    }, {
+        threshold: 0.1,
+    });
+
+    elements.forEach(element => {
+        element.classList.add('hidden');
+        observer.observe(element);
+    });
+
+</script>
+
+<script>
+
+    document.querySelector('.menu-icon').addEventListener('click', () => {
+        const navLinks = document.getElementById('nav-links');
+
+        // als menu zichtbaar is display none, or versi versa
+        navLinks.style.display = (navLinks.style.display === 'block') ? 'none' : 'block';
+    });
+
+
+
+</script>
+</body>
+</html>
